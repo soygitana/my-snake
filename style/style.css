@@ -58,3 +58,40 @@ margin-top: 50px;
     background-color: #eee;
   }
 
+
+.rules-list .list-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 20px 0 20px 0;
+     list-style: none; 
+}
+
+
+.rules-list .rules {
+text-align: left;
+list-style: none;
+font-size: 16px;
+line-height: 1.5;
+}
+
+.rules::before {
+    content: '\2022';
+    color:  rgb(223, 46, 119);
+    padding-right: 10px;
+}
+
+
+
+
+  .page-footer {
+      height: 100px;
+      margin-top: 150px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .page-footer .copy {
+      font-size: 15px;
+  }

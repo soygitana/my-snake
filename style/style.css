@@ -39,6 +39,39 @@ color: rgb(70, 68, 68);
     text-transform: lowercase;
 }
 
+.snake {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+margin-top: 50px;
+margin-left: -150px;
+}
+
+.snake div {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 2px;
+    background-color: rgb(70, 68, 68);
+}
+
+.snake .snake-head {
+    margin-left: 4px;
+    background-color:  rgb(223, 46, 119);
+    display: flex;
+    flex-direction: row;
+}
+
+.snake-head div {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: rgb(70, 68, 68);
+    margin-top: 8px;
+    margin-left: 7px;
+}
+
 .container
 {
 margin-top: 50px;
@@ -130,9 +163,6 @@ align-items: center;
     color: white;
 
 }
-
-
-
 
 
   .page-footer {

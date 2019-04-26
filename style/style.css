@@ -1,0 +1,60 @@
+
+:root {
+    --canvasSize: 500px;
+}
+
+body
+{
+    font-family: 'Barlow', sans-serif;
+    background-color: rgb(243, 243, 243);
+    color: rgb(70, 68, 68);
+ 
+}
+
+.center {
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.hero {
+height: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.hero h1 {
+display: flex;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-size: 30px;
+margin-top: -20px;
+color: rgb(70, 68, 68);
+}
+
+.hero span {
+    font-size: 30px;
+    color: rgb(223, 46, 119);
+    text-transform: lowercase;
+}
+
+.container
+{
+margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.rules-container
+  {
+    display: flex;
+    margin-left: 20px;
+    height: var(--canvasSize);
+    width:  40%;
+    text-align: center;
+    background-color: #eee;
+  }
+

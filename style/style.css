@@ -82,6 +82,57 @@ line-height: 1.5;
 }
 
 
+.control-panel {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 200px;
+height: 100px;
+position: relative;
+left: calc(50% - 100px);
+
+}
+
+.control-panel .control {
+width: 40px;
+height: 40px;
+background: rgba(239,1,124,1);
+border-radius: 15%;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.control-panel .control:nth-child(1) {
+    top: 0;
+    left: calc(50% - 20px);
+} 
+
+.control-panel .control:nth-child(2) {
+    top: 52%;
+    left: 15%;
+} 
+
+
+.control-panel .control:nth-child(3) {
+    top: 52%;
+    left: calc(50% - 20px);
+} 
+
+.control-panel .control:nth-child(4) {
+    top: 52%;
+    left: 65%;
+} 
+
+
+.control-panel i {
+    color: white;
+
+}
+
+
+
 
 
   .page-footer {

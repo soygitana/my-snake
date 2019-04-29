@@ -1,4 +1,4 @@
-### my snake js
+## MY SNAKE JS
 
 #### hello there! 👋
 

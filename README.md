@@ -2,7 +2,7 @@
 
 #### hello there! 👋
 
-This is a time for making my very own version of this classic retro game.
+This is a time for making my own version of this classic retro game.
 Created with pure JS with elements of HTML5 Canvas.
 
 * use the arrow keys on your keyboard to play the game

@@ -1,6 +1,6 @@
 ## MY SNAKE JS
 
-#### hello there! 👋
+#### Hello there! 👋
 
 This is a time for making my own version of this classic retro game.
 Created with pure JS with elements of HTML5 Canvas.

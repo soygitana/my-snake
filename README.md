@@ -6,6 +6,7 @@ This is a time for making my own version of this classic retro game.
 Created with pure JS with elements of HTML5 Canvas.
 
 Let's play!
+
 https://soygitana.github.io/my-snake/
 
 * use the arrow keys on your keyboard to play the game
